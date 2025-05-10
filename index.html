@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#banner">Resume</a></li>
+            <li class="navbar__link"><a href="#things">Về tôi</a></li>
+            <li class="navbar__link"><a href="#works">Dự án</a></li>
+            <a href="#footer"><button class="navbar__btn">Liên hệ</button></a>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/avt.jpg" alt="Profile picture" />
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Xin chào, mình là Gia Thịnh!</h1>
+          <p>
+            Hiện mình đang theo học Ngành Khoa học máy tính tại Trường Đại học Bách Khoa thành phố Hồ Chí Minh, với định hướng trở thành front-end developer.
+            <br />
+            Portfolio này là nơi mình tổng hợp những dự án cá nhân và học thuật nổi bật – mong rằng bạn sẽ thấy hứng thú khi khám phá!
+          </p>
+          <a href="#"><button class="banner__btn">Xem CV</button></a>
+          <div class="banner__socials">
+            <a href="https://www.facebook.com/share/1JhAJVRfcf/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/justzathink" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+      <div class="container">
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-r.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Việc mình làm</h2>
+        <!-- item 1 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-1.png" alt="illustration of designing" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Thiết kế giao diện người dùng (UI)</h3>
+            <p>
+              Mình yêu thích việc tạo ra giao diện đẹp mắt, dễ sử dụng. Thường sử dụng Figma để lên ý tưởng và thiết kế mockup trước khi bắt tay vào code.
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-2.png" alt="illustration of front-end developer" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3> Lập trình giao diện (Frontend Development)</h3>
+            <p>
+              Sử dụng HTML, CSS, JavaScript cùng với ReactJS (hoặc các thư viện khác) để hiện thực hóa thiết kế thành website tương tác và thân thiện với người dùng.
+            </p>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-3.png" alt="illustration of game developer" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Khám phá AI & Game Dev</h3>
+            <p>
+              Ngoài việc học lập trình web, mình cũng thích khám phá các ứng dụng nhỏ liên quan đến AI và phát triển game mini – vừa vui, vừa học thêm logic và thuật toán.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <!-- dec -->
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Dự án gần đây</h2>
+        <!-- img -->
+        <div class="works__img">
+          <div class="works__img--single">
+            <img src="./img/work-1.png" alt="smarthome" />
+            <div class="works__caption">Hệ thống quản lý nhà thông minh</div>
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-2.png" alt="oldphotorestore" />
+            <div class="works__caption">Phục dựng ảnh cũ</div>
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-3.png" alt="schoolwebsite" />
+            <div class="works__caption">Trang web E-learning</div>
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-4.png" alt="chess" />
+            <div class="works__caption">Chess (PVP và PVE)</div>
+          </div>
+        </div>
+        <!-- btn -->
+        <div class="works__btn">
+          <a href="https://github.com/justzathink" target="_blank" rel="noopener noreferrer"><button>Xem dự án</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- dec -->
+        <div class="footer__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+          <img src="./img/footer-img.png" alt="illustration of men" />
+        </div>
+        <!-- heading -->
+        <div class="footer__heading">
+          <h1>Cảm ơn bạn đã ghé thăm portfolio của mình! ✨</h1>
+          <!-- contact -->
+          <div class="footer__contact">
+            <a href="tel:0908536494">
+              <i class="fas fa-phone-alt"></i>
+              <p>0908536494</p>
+            </a>
+            <a href="mailto:thinh.nguyenza@hcmut.edu.vn">
+              <i class="fas fa-envelope"></i>
+              <p>thinh.nguyenza@hcmut.edu.vn</p>
+            </a>
+          </div>
+          <div class="banner__socials">
+            <a href="https://www.facebook.com/share/1JhAJVRfcf/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/justzathink" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
